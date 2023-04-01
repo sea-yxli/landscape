@@ -19,13 +19,13 @@ star_sizes = []
 # clouds
 cloud1_x = 0
 cloud1_y = 50
-cloud1_speed = random.randint(1, 3)
+cloud1_speed = random.randint(1, 7)
 cloud2_x = 200
 cloud2_y = 20
-cloud2_speed = random.randint(3, 5)
+cloud2_speed = random.randint(1, 7)
 cloud3_x = 500
 cloud3_y = 30
-cloud3_speed = random.randint(5, 7)
+cloud3_speed = random.randint(1, 7)
 
 # layered clouds
 cloud4_x = -20
