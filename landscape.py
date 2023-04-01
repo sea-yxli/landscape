@@ -157,9 +157,9 @@ while running:
 
     # sunset
     if frame_count > 600 and frame_count < 800:
-      sky_r -= (129 - 40) / 150
-      sky_g -= (159 - 60) / 150
-      sky_b -= (226 - 107) / 150
+      sky_r -= (129 - 40) / 200
+      sky_g -= (159 - 60) / 200
+      sky_b -= (226 - 107) / 200
       sun_y += 2
       screen.fill((sky_r, sky_g, sky_b))
 
@@ -180,9 +180,9 @@ while running:
     if frame_count > 1400 and frame_count < 1600:
       moon_y += 2
       screen.fill((sky_r, sky_g, sky_b))
-      sky_r += (129 - 40) / 150
-      sky_g += (159 - 60) / 150
-      sky_b += (226 - 107) / 150
+      sky_r += (129 - 40) / 200
+      sky_g += (159 - 60) / 200
+      sky_b += (226 - 107) / 200
     if frame_count > 1600:
       frame_count = 0
 
