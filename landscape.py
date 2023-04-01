@@ -192,7 +192,7 @@ while running:
 
       screen.fill((sky_r, sky_g, sky_b))
 
-    # looping clouds back to the left
+    # resetting clouds back to the left
     if cloud2_x > WIDTH and cloud5_x > WIDTH:
       cloud2_x = -200
       cloud5_x = -220
