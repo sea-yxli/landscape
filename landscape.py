@@ -244,13 +244,13 @@ while running:
     pygame.draw.polygon(screen, ("#484F50"), ((122, 320), (242, 166), (307, 201), (340, 320)))
     pygame.draw.polygon(screen, ("#dde5f4"), ((556, 183), (613, 271), (639, 281), (639, 145)))
   
-    # trees
+    # draw trees
     for x in range(10, 640, 100):
       pygame.draw.rect(screen, ("#5C4033"), (x + 10, 300, 10, 40))
       pygame.draw.polygon(screen, ("#013220"), ((x - 10, 300), (x + 15, 180), (x + 40, 300)))
       pygame.draw.polygon(screen, ("#013220"), ((x - 7, 250), (x + 13, 140), (x + 33, 250)))
 
-    # elephant    
+    # draw elephant    
       pygame.draw.polygon(screen, ("#243640"), ((body_x1, 460), (body_x2, 361), (body_x3, 325), (body_x4, 325), (body_x5, 460)))
       pygame.draw.rect(screen, ("#437857"), (legs_x + 5, 400, 40, 80))
       pygame.draw.polygon(screen, ("#edc5d3"), ((ears_x1, 325), (ears_x2, 325), (ears_x3, 340), (ears_x4, 377), (ears_x5, 388), (ears_x6, 388)))
