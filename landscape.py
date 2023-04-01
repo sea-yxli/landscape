@@ -152,12 +152,10 @@ while running:
       trunk_x5 = -30
 
     # midday
-  
     if frame_count > 200 and frame_count < 600:
       sun_y += 0
 
     # sunset
-  
     if frame_count > 600 and frame_count < 800:
       sky_r -= (129 - 40) / 150
       sky_g -= (159 - 60) / 150
@@ -179,14 +177,12 @@ while running:
       screen.fill((sky_r, sky_g, sky_b))
 
     # moon goes down
-  
     if frame_count > 1400 and frame_count < 1600:
       moon_y += 2
       screen.fill((sky_r, sky_g, sky_b))
       sky_r += (129 - 40) / 150
       sky_g += (159 - 60) / 150
       sky_b += (226 - 107) / 150
-
     if frame_count > 1600:
       frame_count = 0
 
