@@ -247,8 +247,8 @@ while running:
     # draw trees
     for x in range(10, 640, 100):
       pygame.draw.rect(screen, ("#5C4033"), (x + 10, 300, 10, 40))
-      pygame.draw.polygon(screen, ("#013220"), ((x - 10, 300), (x + 15, 180), (x + 40, 300)))
-      pygame.draw.polygon(screen, ("#013220"), ((x - 7, 250), (x + 13, 140), (x + 33, 250)))
+      pygame.draw.polygon(screen, ("#013220"), ((x - 10, 300), (x + 20, 180), (x + 40, 300)))
+      pygame.draw.polygon(screen, ("#013220"), ((x - 10, 250), (x + 20, 140), (x + 40, 250)))
 
     # draw elephant    
       pygame.draw.polygon(screen, ("#243640"), ((body_x1, 460), (body_x2, 361), (body_x3, 325), (body_x4, 325), (body_x5, 460)))
